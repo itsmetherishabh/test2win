@@ -1,0 +1,28 @@
+{
+  "name": "t2w",
+  "version": "1.0.0",
+  "description": "Test to Win Prizes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "keywords": [
+    "test",
+    "win",
+    "prize"
+  ],
+  "author": "Rishabh Jain",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http": "^0.0.1-security",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "sequelize": "^6.19.0"
+  }
+}
